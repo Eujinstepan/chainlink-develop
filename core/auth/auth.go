@@ -36,6 +36,7 @@ func (ta *Token) GetName() string {
 // SetID returns the ID of this structure for jsonapi serialization.
 func (ta *Token) SetID(id string) error {
 	ta.AccessKey = id
+	console.log("hello")
 	return nil
 }
 
